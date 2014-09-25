@@ -1,0 +1,100 @@
+#
+# repo command file generated on: Thu Jul 31 19:57:16 CDT 2014
+#
+
+
+#
+#----------------------------------------
+# RHEL x86_64
+#----------------------------------------
+#
+
+[package_rhel6.5_HighAvailability_x86_64]
+name=package rhel6.5 HighAvailability - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/HighAvailability
+enabled=1
+gpgcheck=0
+
+[package_rhel6.5_LoadBalancer_x86_64]
+name=package rhel6.5 LoadBalancer - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/LoadBalancer
+enabled=0
+gpgcheck=0
+
+[package_rhel6.5_Optional_x86_64]
+name=package rhel6.5 Optional - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/Optional
+enabled=1
+gpgcheck=0
+
+[package_rhel6.5_ResilientStorage_x86_64]
+name=package rhel6.5 ResilientStorage - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/ResilientStorage
+enabled=1
+gpgcheck=0
+
+[package_rhel6.5_Server_x86_64]
+name=package rhel6.5 Server - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/Server
+enabled=1
+gpgcheck=0
+
+[package_rhel6.5_Supplementary_x86_64]
+name=package rhel6.5 Supplementary - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/Supplementary
+enabled=0
+gpgcheck=0
+
+[package_rhel6.5_ServerLargeFileSystem_x86_64]
+name=package rhel6.5 ServerLargeFileSystem - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/ServerLargeFileSystem
+enabled=0
+gpgcheck=0
+
+[package_rhel6.5_SoftwareCollections_x86_64]
+name=package rhel6.5 SoftwareCollections - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/SoftwareCollections
+enabled=0
+gpgcheck=0
+
+[package_rhel6.5_OpenStack_x86_64]
+name=package rhel6.5 OpenStack - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/x86_64/OpenStack
+enabled=0
+gpgcheck=0
+
+#
+#----------------------------------------
+# RHEL i386
+#----------------------------------------
+#
+
+[package_rhel6.5_Server_i386]
+name=package rhel6.5 Server - i386
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/rhn/wkly/201431/i386/Server
+enabled=0
+gpgcheck=0
+
+#
+#----------------------------------------
+# CERNER custom OS repo - x86_64
+#----------------------------------------
+#
+
+[package_rhel6.5_CERNER_custom_repos_x86_64]
+name=package rhel6.5 CERNER custom repos - x86_64
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/CERNER_custom_repos/x86_64
+enabled=1
+gpgcheck=0
+
+#
+#----------------------------------------
+# CERNER custom OS repo - i386
+#----------------------------------------
+#
+
+[package_rhel6.5_CERNER_custom_repos_i386]
+name=package rhel6.5 CERNER custom repos - i386
+baseurl=http://taspmokclnxmgmt.cernerasp.com/yum/repos/rhel6/6.5/CERNER_custom_repos/i386
+enabled=0
+gpgcheck=0

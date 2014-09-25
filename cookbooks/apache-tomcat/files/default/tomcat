@@ -1,0 +1,26 @@
+#!/bin/bash
+# description: Tomcat Start Stop Restart
+# processname: tomcat
+# chkconfig: 234 20 80
+#JAVA_HOME=/usr/bin/java
+#export JAVA_HOME
+#PATH=$JAVA_HOME/bin:$PATH
+export PATH
+export CATALINA_HOME=/opt/apache-tomcat
+export CATALINA_OPTS="-server -Xms64m -Xmx1024m -XX:MaxPermSize=512M"
+cd $CATALINA_HOME/logs
+
+case $1 in
+start)
+/bin/su tomcat $CATALINA_HOME/bin/startup.sh
+;; 
+stop)   
+/bin/su tomcat $CATALINA_HOME/bin/shutdown.sh
+;; 
+restart)
+/bin/su tomcat $CATALINA_HOME/bin/shutdown.sh
+sleep 5
+/bin/su tomcat $CATALINA_HOME/bin/startup.sh
+;; 
+esac    
+exit 0
